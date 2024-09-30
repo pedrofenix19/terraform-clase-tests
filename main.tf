@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket_prefix = "pedro-test-terraform-${var.environment}"
+  bucket_prefix = "pedro-testmalo-terraform-${var.environment}"
 }
 
 resource "aws_s3_bucket_server_side_encryption_configuration" "bucket_sse" {
